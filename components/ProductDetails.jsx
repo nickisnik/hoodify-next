@@ -45,7 +45,7 @@ const ProductDetails = ({cartItems, setCartItems}) => {
             <header className='product-details__text__descr__header'>Materials</header>
             <p className='product-details__text__descr'>85% Cotton, 15% Polyester <br/> All materials are ethically sourced</p>
         </section>
-        <button className='product-details__add-button' onClick={() => {handleAddItem(thisProduct)}}>Add to cart</button>
+        <button className='product-details__add-button' onClick={() => {handleAddItem(thisProduct); alert('Added! Check the cart')}}>Add to cart</button>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React, {useState, useContext} from 'react';
 import { CartProvider, useCart } from './CartContext';
 import { CartContext, testContext } from '../pages/_app';
+import { saveProduct } from '../utils/firebase';
 
 /* import CartContext from './CartContext'; */
 

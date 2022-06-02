@@ -13,6 +13,9 @@ const NavBar = ({showCart, setShowCart, cartItems, setCartItems}) => {
   return (
     <div className='NavBar__content'>
       <div className="NavBar__content__link-container"><Link href="/products"><a className="NavBar__content__link">Shop</a></Link></div>
+      <div className='NavBar__content__saved-container'>
+        <Link href="/saved"><a className='NavBar__content__link'>Saved</a></Link>
+      </div>
       
       <div className="NavBar__content__logo-container"><Link href="/"><span className='NavBar__content__logo'>Hoodify</span></Link></div>
       <div className="NavBar__content__cart-container"><img src="/cart.svg" alt="Cart Image!" className="NavBar__content__cart-button" onClick={handleCartShow} /></div>

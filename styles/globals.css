@@ -100,6 +100,13 @@ a {
     cursor: pointer;
 }
 
+.NavBar__content__saved-container {
+  display: flex;
+  text-align: center;
+  margin-right: 2rem;
+  z-index: 1;
+}
+
 .NavBar__content__cart-button {
     margin: auto;
     width: 30px;
@@ -625,3 +632,19 @@ a {
 }
 
 /* END OF ShoppingContent.jsx */
+
+
+/* Saved Items */
+
+.SavedItems__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 4rem;
+}
+
+.SavedItems__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: auto;
+}
