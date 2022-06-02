@@ -6,7 +6,7 @@ export default function Home() {
     <div className='home__wrapper'>
       <div className="home__preview__container">
           <span className='home__preview__header'>Welcome!</span>
-          <span className='home__preview__details'>The homepage will live here. <br/> While it's in development, you can click 'shop' to view our products!</span>
+          <span className='home__preview__details'>The homepage will live here. <br/> While it&apos;s in development, you can click &apos;shop&apos; to view our products!</span>
       </div>
     </div>
   )
